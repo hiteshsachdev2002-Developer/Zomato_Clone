@@ -1,0 +1,846 @@
+[
+    {
+      "id": "1",
+      "HOTEL_NAME": "Grand Palace Hotel",
+      "HOTEL_DESCRIPTION": "A luxurious 5-star hotel offering exquisite city views and top-notch amenities.",
+      "HOTEL_RATING": 4.7,
+      "IMAGE_URL": "https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b",
+      "isPromoted": true,
+      "ADDRESS": "123 Royal Avenue, City Center, Metropolis",
+      "DINNING_OFFERS": {
+        "Happy_Hours": "50% off on drinks from 5 PM to 7 PM",
+        "Buffet_Deal": "Unlimited buffet at $25 every Sunday"
+      },
+      "itemCards": [
+      {
+        "type": "STARTERS",
+        "items": [
+          {
+            "name": "Crab Cakes",
+            "description": "Pan-seared crab patties with dip",
+            "price": 9,
+            "image":"https://images.pexels.com/photos/17321086/pexels-photo-17321086/free-photo-of-a-tray-of-food-with-a-lemon-wedge-and-a-dip.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Shrimp Cocktail",
+            "description": "Chilled shrimp with tangy sauce",
+            "price": 10,
+            "image":"https://images.pexels.com/photos/16741145/pexels-photo-16741145/free-photo-of-seafood-on-plate-and-in-glass.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Bruschetta",
+            "description": "Toasted bread with tomatoes & basil",
+            "price": 6,
+            "image":"https://images.pexels.com/photos/31999268/pexels-photo-31999268/free-photo-of-gourmet-avocado-toast-with-mozzarella.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "MAIN_COURSE",
+        "items": [
+          {
+            "name": "Lobster Thermidor",
+            "description": "Baked lobster with creamy sauce",
+            "price": 28,
+            "image":"https://images.pexels.com/photos/1194431/pexels-photo-1194431.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Fish Tacos",
+            "description": "Grilled fish in soft tortillas",
+            "price": 16,
+             "image":"https://images.pexels.com/photos/9044685/pexels-photo-9044685.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Vegetable Lasagna",
+            "description": "Layered pasta with seasonal vegetables",
+            "price": 15,
+            "image":"https://images.pexels.com/photos/30302268/pexels-photo-30302268/free-photo-of-delicious-vegetable-lasagna-with-fresh-basil.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "DESSERTS",
+        "items": [
+          {
+            "name": "Tiramisu",
+            "description": "Coffee-flavored Italian dessert",
+            "price": 8,
+             "image":"https://images.pexels.com/photos/29721415/pexels-photo-29721415/free-photo-of-elegant-tiramisu-cake-with-ladyfingers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Fruit Salad",
+            "description": "Mix of fresh seasonal fruits",
+            "price": 5,
+             "image":"https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Brownies",
+            "description": "Chocolate fudge brownies",
+            "price": 6,
+             "image":"https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "id": "2",
+      "HOTEL_NAME": "Ocean Breeze Resort",
+      "HOTEL_DESCRIPTION": "A serene beachside resort perfect for family vacations.",
+      "HOTEL_RATING": 4.3,
+      "IMAGE_URL": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/01/b8/6a/ocean-main-dining.jpg",
+      "isPromoted": false,
+      "ADDRESS": "456 Beach Road, Coastal Town, Seaview",
+      "DINNING_OFFERS": {
+        "Buffet_Deal": "Seafood special buffet on Saturdays",
+        "Weekend_Combo": "Dinner + Mocktail combo at $30"
+      },
+     "itemCards": [
+      {
+        "type": "STARTERS",
+        "items": [
+          {
+            "name": "Crab Cakes",
+            "description": "Pan-seared crab patties with dip",
+            "price": 9,
+            "image":"https://images.pexels.com/photos/17321086/pexels-photo-17321086/free-photo-of-a-tray-of-food-with-a-lemon-wedge-and-a-dip.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Shrimp Cocktail",
+            "description": "Chilled shrimp with tangy sauce",
+            "price": 10,
+            "image":"https://images.pexels.com/photos/16741145/pexels-photo-16741145/free-photo-of-seafood-on-plate-and-in-glass.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Bruschetta",
+            "description": "Toasted bread with tomatoes & basil",
+            "price": 6,
+            "image":"https://images.pexels.com/photos/31999268/pexels-photo-31999268/free-photo-of-gourmet-avocado-toast-with-mozzarella.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "MAIN_COURSE",
+        "items": [
+          {
+            "name": "Lobster Thermidor",
+            "description": "Baked lobster with creamy sauce",
+            "price": 28,
+            "image":"https://images.pexels.com/photos/1194431/pexels-photo-1194431.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Fish Tacos",
+            "description": "Grilled fish in soft tortillas",
+            "price": 16,
+             "image":"https://images.pexels.com/photos/9044685/pexels-photo-9044685.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Vegetable Lasagna",
+            "description": "Layered pasta with seasonal vegetables",
+            "price": 15,
+            "image":"https://images.pexels.com/photos/30302268/pexels-photo-30302268/free-photo-of-delicious-vegetable-lasagna-with-fresh-basil.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "DESSERTS",
+        "items": [
+          {
+            "name": "Tiramisu",
+            "description": "Coffee-flavored Italian dessert",
+            "price": 8,
+             "image":"https://images.pexels.com/photos/29721415/pexels-photo-29721415/free-photo-of-elegant-tiramisu-cake-with-ladyfingers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Fruit Salad",
+            "description": "Mix of fresh seasonal fruits",
+            "price": 5,
+             "image":"https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Brownies",
+            "description": "Chocolate fudge brownies",
+            "price": 6,
+             "image":"https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "id": "3",
+      "HOTEL_NAME": "Mountain View Inn",
+      "HOTEL_DESCRIPTION": "Nestled in the hills, ideal for a peaceful retreat.",
+      "HOTEL_RATING": 4.5,
+      "IMAGE_URL": "https://b.zmtcdn.com/data/pictures/4/20953734/f5c7320415eb2f53c5c72b43c0a690ee_featured_v2.jpg",
+      "isPromoted": false,
+      "ADDRESS": "789 Hilltop Road, Highland Region",
+      "DINNING_OFFERS": {
+        "Happy_Hours": "Buy 1 Get 1 Free on cocktails from 6 PM",
+        "Buffet_Deal": "Breakfast buffet at $15"
+      },
+      "itemCards": [
+      {
+        "type": "STARTERS",
+        "items": [
+          {
+            "name": "Crab Cakes",
+            "description": "Pan-seared crab patties with dip",
+            "price": 9,
+            "image":"https://images.pexels.com/photos/17321086/pexels-photo-17321086/free-photo-of-a-tray-of-food-with-a-lemon-wedge-and-a-dip.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Shrimp Cocktail",
+            "description": "Chilled shrimp with tangy sauce",
+            "price": 10,
+            "image":"https://images.pexels.com/photos/16741145/pexels-photo-16741145/free-photo-of-seafood-on-plate-and-in-glass.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Bruschetta",
+            "description": "Toasted bread with tomatoes & basil",
+            "price": 6,
+            "image":"https://images.pexels.com/photos/31999268/pexels-photo-31999268/free-photo-of-gourmet-avocado-toast-with-mozzarella.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "MAIN_COURSE",
+        "items": [
+          {
+            "name": "Lobster Thermidor",
+            "description": "Baked lobster with creamy sauce",
+            "price": 28,
+            "image":"https://images.pexels.com/photos/1194431/pexels-photo-1194431.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Fish Tacos",
+            "description": "Grilled fish in soft tortillas",
+            "price": 16,
+             "image":"https://images.pexels.com/photos/9044685/pexels-photo-9044685.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Vegetable Lasagna",
+            "description": "Layered pasta with seasonal vegetables",
+            "price": 15,
+            "image":"https://images.pexels.com/photos/30302268/pexels-photo-30302268/free-photo-of-delicious-vegetable-lasagna-with-fresh-basil.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "DESSERTS",
+        "items": [
+          {
+            "name": "Tiramisu",
+            "description": "Coffee-flavored Italian dessert",
+            "price": 8,
+             "image":"https://images.pexels.com/photos/29721415/pexels-photo-29721415/free-photo-of-elegant-tiramisu-cake-with-ladyfingers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Fruit Salad",
+            "description": "Mix of fresh seasonal fruits",
+            "price": 5,
+             "image":"https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Brownies",
+            "description": "Chocolate fudge brownies",
+            "price": 6,
+             "image":"https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "id": "4",
+      "HOTEL_NAME": "City Central Suites",
+      "HOTEL_DESCRIPTION": "Modern hotel in downtown, ideal for business travelers.",
+      "HOTEL_RATING": 4,
+      "IMAGE_URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgu8gYQ1FqtRFQSxhNr2cso0dPqSMSY-ABxA",
+      "isPromoted": true,
+      "ADDRESS": "101 Business Street, Downtown, Megacity",
+      "DINNING_OFFERS": {
+        "Buffet_Deal": "Lunch buffet for $18",
+        "Weekend_Combo": "Dinner + Dessert at $22"
+      },
+     "itemCards": [
+      {
+        "type": "STARTERS",
+        "items": [
+          {
+            "name": "Crab Cakes",
+            "description": "Pan-seared crab patties with dip",
+            "price": 9,
+            "image":"https://images.pexels.com/photos/17321086/pexels-photo-17321086/free-photo-of-a-tray-of-food-with-a-lemon-wedge-and-a-dip.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Shrimp Cocktail",
+            "description": "Chilled shrimp with tangy sauce",
+            "price": 10,
+            "image":"https://images.pexels.com/photos/16741145/pexels-photo-16741145/free-photo-of-seafood-on-plate-and-in-glass.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Bruschetta",
+            "description": "Toasted bread with tomatoes & basil",
+            "price": 6,
+            "image":"https://images.pexels.com/photos/31999268/pexels-photo-31999268/free-photo-of-gourmet-avocado-toast-with-mozzarella.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "MAIN_COURSE",
+        "items": [
+          {
+            "name": "Lobster Thermidor",
+            "description": "Baked lobster with creamy sauce",
+            "price": 28,
+            "image":"https://images.pexels.com/photos/1194431/pexels-photo-1194431.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Fish Tacos",
+            "description": "Grilled fish in soft tortillas",
+            "price": 16,
+             "image":"https://images.pexels.com/photos/9044685/pexels-photo-9044685.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Vegetable Lasagna",
+            "description": "Layered pasta with seasonal vegetables",
+            "price": 15,
+            "image":"https://images.pexels.com/photos/30302268/pexels-photo-30302268/free-photo-of-delicious-vegetable-lasagna-with-fresh-basil.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "DESSERTS",
+        "items": [
+          {
+            "name": "Tiramisu",
+            "description": "Coffee-flavored Italian dessert",
+            "price": 8,
+             "image":"https://images.pexels.com/photos/29721415/pexels-photo-29721415/free-photo-of-elegant-tiramisu-cake-with-ladyfingers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Fruit Salad",
+            "description": "Mix of fresh seasonal fruits",
+            "price": 5,
+             "image":"https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Brownies",
+            "description": "Chocolate fudge brownies",
+            "price": 6,
+             "image":"https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "id": "5",
+      "HOTEL_NAME": "Heritage Haveli",
+      "HOTEL_DESCRIPTION": "Experience royal Indian hospitality in a traditional haveli.",
+      "HOTEL_RATING": 4.8,
+      "IMAGE_URL": "https://assets.cntraveller.in/photos/67223218c3d220b6b329f8de/4:3/w_4964,h_3723,c_limit/Onrique%2012th%20Floor%20Night.jpg",
+      "isPromoted": true,
+      "ADDRESS": "234 Palace Lane, Old City, Jaipur",
+      "DINNING_OFFERS": {
+        "Happy_Hours": "20% off on royal thalis from 1 PM to 3 PM"
+      },
+      "itemCards": [
+      {
+        "type": "STARTERS",
+        "items": [
+          {
+            "name": "Crab Cakes",
+            "description": "Pan-seared crab patties with dip",
+            "price": 9,
+            "image":"https://images.pexels.com/photos/17321086/pexels-photo-17321086/free-photo-of-a-tray-of-food-with-a-lemon-wedge-and-a-dip.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Shrimp Cocktail",
+            "description": "Chilled shrimp with tangy sauce",
+            "price": 10,
+            "image":"https://images.pexels.com/photos/16741145/pexels-photo-16741145/free-photo-of-seafood-on-plate-and-in-glass.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Bruschetta",
+            "description": "Toasted bread with tomatoes & basil",
+            "price": 6,
+            "image":"https://images.pexels.com/photos/31999268/pexels-photo-31999268/free-photo-of-gourmet-avocado-toast-with-mozzarella.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "MAIN_COURSE",
+        "items": [
+          {
+            "name": "Lobster Thermidor",
+            "description": "Baked lobster with creamy sauce",
+            "price": 28,
+            "image":"https://images.pexels.com/photos/1194431/pexels-photo-1194431.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Fish Tacos",
+            "description": "Grilled fish in soft tortillas",
+            "price": 16,
+             "image":"https://images.pexels.com/photos/9044685/pexels-photo-9044685.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Vegetable Lasagna",
+            "description": "Layered pasta with seasonal vegetables",
+            "price": 15,
+            "image":"https://images.pexels.com/photos/30302268/pexels-photo-30302268/free-photo-of-delicious-vegetable-lasagna-with-fresh-basil.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "DESSERTS",
+        "items": [
+          {
+            "name": "Tiramisu",
+            "description": "Coffee-flavored Italian dessert",
+            "price": 8,
+             "image":"https://images.pexels.com/photos/29721415/pexels-photo-29721415/free-photo-of-elegant-tiramisu-cake-with-ladyfingers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Fruit Salad",
+            "description": "Mix of fresh seasonal fruits",
+            "price": 5,
+             "image":"https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Brownies",
+            "description": "Chocolate fudge brownies",
+            "price": 6,
+             "image":"https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "id": "6",
+      "HOTEL_NAME": "Skyline Towers",
+      "HOTEL_DESCRIPTION": "High-rise hotel with a rooftop restaurant and skyline views.",
+      "HOTEL_RATING": 4.2,
+      "IMAGE_URL": "https://media.cntravellerme.com/photos/67e3aba028f2626ea2effb3e/16:9/w_2560%2Cc_limit/KIRA%2520bar.jpg",
+      "isPromoted": false,
+      "ADDRESS": "555 Skyline Blvd, Urban Heights",
+      "DINNING_OFFERS": {
+        "Buffet_Deal": "Rooftop dinner buffet on Fridays",
+        "Weekend_Combo": "Couple Dinner + Drinks at $50"
+      },
+     "itemCards": [
+      {
+        "type": "STARTERS",
+        "items": [
+          {
+            "name": "Crab Cakes",
+            "description": "Pan-seared crab patties with dip",
+            "price": 9,
+            "image":"https://images.pexels.com/photos/17321086/pexels-photo-17321086/free-photo-of-a-tray-of-food-with-a-lemon-wedge-and-a-dip.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Shrimp Cocktail",
+            "description": "Chilled shrimp with tangy sauce",
+            "price": 10,
+            "image":"https://images.pexels.com/photos/16741145/pexels-photo-16741145/free-photo-of-seafood-on-plate-and-in-glass.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Bruschetta",
+            "description": "Toasted bread with tomatoes & basil",
+            "price": 6,
+            "image":"https://images.pexels.com/photos/31999268/pexels-photo-31999268/free-photo-of-gourmet-avocado-toast-with-mozzarella.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "MAIN_COURSE",
+        "items": [
+          {
+            "name": "Lobster Thermidor",
+            "description": "Baked lobster with creamy sauce",
+            "price": 28,
+            "image":"https://images.pexels.com/photos/1194431/pexels-photo-1194431.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Fish Tacos",
+            "description": "Grilled fish in soft tortillas",
+            "price": 16,
+             "image":"https://images.pexels.com/photos/9044685/pexels-photo-9044685.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Vegetable Lasagna",
+            "description": "Layered pasta with seasonal vegetables",
+            "price": 15,
+            "image":"https://images.pexels.com/photos/30302268/pexels-photo-30302268/free-photo-of-delicious-vegetable-lasagna-with-fresh-basil.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "DESSERTS",
+        "items": [
+          {
+            "name": "Tiramisu",
+            "description": "Coffee-flavored Italian dessert",
+            "price": 8,
+             "image":"https://images.pexels.com/photos/29721415/pexels-photo-29721415/free-photo-of-elegant-tiramisu-cake-with-ladyfingers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Fruit Salad",
+            "description": "Mix of fresh seasonal fruits",
+            "price": 5,
+             "image":"https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Brownies",
+            "description": "Chocolate fudge brownies",
+            "price": 6,
+             "image":"https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "id": "7",
+      "HOTEL_NAME": "Forest Edge Lodge",
+      "HOTEL_DESCRIPTION": "Eco-lodge surrounded by forest, perfect for nature lovers.",
+      "HOTEL_RATING": 4.6,
+      "IMAGE_URL": "https://www.neoz.com/cdn/shop/articles/Redox-at-Infinity-Hotel-Conference-Resort-Munich_compressed-1024x683.jpg",
+      "isPromoted": false,
+      "ADDRESS": "876 Nature Trail, Green Woods Reserve",
+      "DINNING_OFFERS": {
+        "Weekend_Combo": "Forest-themed meal + Campfire snacks"
+      },
+      "itemCards": [
+      {
+        "type": "STARTERS",
+        "items": [
+          {
+            "name": "Crab Cakes",
+            "description": "Pan-seared crab patties with dip",
+            "price": 9,
+            "image":"https://images.pexels.com/photos/17321086/pexels-photo-17321086/free-photo-of-a-tray-of-food-with-a-lemon-wedge-and-a-dip.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Shrimp Cocktail",
+            "description": "Chilled shrimp with tangy sauce",
+            "price": 10,
+            "image":"https://images.pexels.com/photos/16741145/pexels-photo-16741145/free-photo-of-seafood-on-plate-and-in-glass.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Bruschetta",
+            "description": "Toasted bread with tomatoes & basil",
+            "price": 6,
+            "image":"https://images.pexels.com/photos/31999268/pexels-photo-31999268/free-photo-of-gourmet-avocado-toast-with-mozzarella.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "MAIN_COURSE",
+        "items": [
+          {
+            "name": "Lobster Thermidor",
+            "description": "Baked lobster with creamy sauce",
+            "price": 28,
+            "image":"https://images.pexels.com/photos/1194431/pexels-photo-1194431.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Fish Tacos",
+            "description": "Grilled fish in soft tortillas",
+            "price": 16,
+             "image":"https://images.pexels.com/photos/9044685/pexels-photo-9044685.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Vegetable Lasagna",
+            "description": "Layered pasta with seasonal vegetables",
+            "price": 15,
+            "image":"https://images.pexels.com/photos/30302268/pexels-photo-30302268/free-photo-of-delicious-vegetable-lasagna-with-fresh-basil.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "DESSERTS",
+        "items": [
+          {
+            "name": "Tiramisu",
+            "description": "Coffee-flavored Italian dessert",
+            "price": 8,
+             "image":"https://images.pexels.com/photos/29721415/pexels-photo-29721415/free-photo-of-elegant-tiramisu-cake-with-ladyfingers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Fruit Salad",
+            "description": "Mix of fresh seasonal fruits",
+            "price": 5,
+             "image":"https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Brownies",
+            "description": "Chocolate fudge brownies",
+            "price": 6,
+             "image":"https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      }
+    ] 
+    },
+    {
+      "id": "8",
+      "HOTEL_NAME": "Sunset Retreat",
+      "HOTEL_DESCRIPTION": "Lakeside hotel known for its sunset views and calm ambiance.",
+      "HOTEL_RATING": 4.4,
+      "IMAGE_URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4yI88AxkyK2TXVdKzf20oHq_6zSdYKWnDkw",
+      "isPromoted": false,
+      "ADDRESS": "321 Lakeview Drive, Sunset Bay",
+      "DINNING_OFFERS": {
+        "Buffet_Deal": "Sunset dinner by the lake",
+        "Happy_Hours": "Discounted wine from 4 PM"
+      },
+      "itemCards": [
+      {
+        "type": "STARTERS",
+        "items": [
+          {
+            "name": "Crab Cakes",
+            "description": "Pan-seared crab patties with dip",
+            "price": 9,
+            "image":"https://images.pexels.com/photos/17321086/pexels-photo-17321086/free-photo-of-a-tray-of-food-with-a-lemon-wedge-and-a-dip.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Shrimp Cocktail",
+            "description": "Chilled shrimp with tangy sauce",
+            "price": 10,
+            "image":"https://images.pexels.com/photos/16741145/pexels-photo-16741145/free-photo-of-seafood-on-plate-and-in-glass.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Bruschetta",
+            "description": "Toasted bread with tomatoes & basil",
+            "price": 6,
+            "image":"https://images.pexels.com/photos/31999268/pexels-photo-31999268/free-photo-of-gourmet-avocado-toast-with-mozzarella.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "MAIN_COURSE",
+        "items": [
+          {
+            "name": "Lobster Thermidor",
+            "description": "Baked lobster with creamy sauce",
+            "price": 28,
+            "image":"https://images.pexels.com/photos/1194431/pexels-photo-1194431.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Fish Tacos",
+            "description": "Grilled fish in soft tortillas",
+            "price": 16,
+             "image":"https://images.pexels.com/photos/9044685/pexels-photo-9044685.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Vegetable Lasagna",
+            "description": "Layered pasta with seasonal vegetables",
+            "price": 15,
+            "image":"https://images.pexels.com/photos/30302268/pexels-photo-30302268/free-photo-of-delicious-vegetable-lasagna-with-fresh-basil.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "DESSERTS",
+        "items": [
+          {
+            "name": "Tiramisu",
+            "description": "Coffee-flavored Italian dessert",
+            "price": 8,
+             "image":"https://images.pexels.com/photos/29721415/pexels-photo-29721415/free-photo-of-elegant-tiramisu-cake-with-ladyfingers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Fruit Salad",
+            "description": "Mix of fresh seasonal fruits",
+            "price": 5,
+             "image":"https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Brownies",
+            "description": "Chocolate fudge brownies",
+            "price": 6,
+             "image":"https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "id": "9",
+      "HOTEL_NAME": "Urban Nest",
+      "HOTEL_DESCRIPTION": "Trendy boutique hotel with fusion food and artsy interiors.",
+      "HOTEL_RATING": 4.1,
+      "IMAGE_URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvfWRWZhii7Slzmewi22_xYCyH6knTVKg3kp99W4eri3-nYWP9_xqJmYE_PJ1zaeP3xwU&usqp=CAU",
+      "isPromoted": false,
+      "ADDRESS": "678 Art Street, Design District",
+      "DINNING_OFFERS": {
+        "Happy_Hours": "Buy 2 Get 1 on appetizers from 5 PM",
+        "Weekend_Combo": "Brunch + Smoothie deal"
+      },
+     "itemCards": [
+      {
+        "type": "STARTERS",
+        "items": [
+          {
+            "name": "Crab Cakes",
+            "description": "Pan-seared crab patties with dip",
+            "price": 9,
+            "image":"https://images.pexels.com/photos/17321086/pexels-photo-17321086/free-photo-of-a-tray-of-food-with-a-lemon-wedge-and-a-dip.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Shrimp Cocktail",
+            "description": "Chilled shrimp with tangy sauce",
+            "price": 10,
+            "image":"https://images.pexels.com/photos/16741145/pexels-photo-16741145/free-photo-of-seafood-on-plate-and-in-glass.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Bruschetta",
+            "description": "Toasted bread with tomatoes & basil",
+            "price": 6,
+            "image":"https://images.pexels.com/photos/31999268/pexels-photo-31999268/free-photo-of-gourmet-avocado-toast-with-mozzarella.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "MAIN_COURSE",
+        "items": [
+          {
+            "name": "Lobster Thermidor",
+            "description": "Baked lobster with creamy sauce",
+            "price": 28,
+            "image":"https://images.pexels.com/photos/1194431/pexels-photo-1194431.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Fish Tacos",
+            "description": "Grilled fish in soft tortillas",
+            "price": 16,
+             "image":"https://images.pexels.com/photos/9044685/pexels-photo-9044685.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Vegetable Lasagna",
+            "description": "Layered pasta with seasonal vegetables",
+            "price": 15,
+            "image":"https://images.pexels.com/photos/30302268/pexels-photo-30302268/free-photo-of-delicious-vegetable-lasagna-with-fresh-basil.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "DESSERTS",
+        "items": [
+          {
+            "name": "Tiramisu",
+            "description": "Coffee-flavored Italian dessert",
+            "price": 8,
+             "image":"https://images.pexels.com/photos/29721415/pexels-photo-29721415/free-photo-of-elegant-tiramisu-cake-with-ladyfingers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Fruit Salad",
+            "description": "Mix of fresh seasonal fruits",
+            "price": 5,
+             "image":"https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Brownies",
+            "description": "Chocolate fudge brownies",
+            "price": 6,
+             "image":"https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "id": "10",
+      "HOTEL_NAME": "Desert Mirage Hotel",
+      "HOTEL_DESCRIPTION": "Luxurious hotel in the desert with camel safari experiences.",
+      "HOTEL_RATING": 4.9,
+      "IMAGE_URL": "https://rclite.com/wp-content/uploads/2021/11/smart-lighting.jpg",
+      "isPromoted": false,
+      "ADDRESS": "999 Mirage Lane, Thar Desert Outskirts",
+      "DINNING_OFFERS": {
+        "Buffet_Deal": "Desert-themed buffet every evening",
+        "Weekend_Combo": "Dinner + Cultural show"
+      },
+     "itemCards": [
+      {
+        "type": "STARTERS",
+        "items": [
+          {
+            "name": "Crab Cakes",
+            "description": "Pan-seared crab patties with dip",
+            "price": 9,
+            "image":"https://images.pexels.com/photos/17321086/pexels-photo-17321086/free-photo-of-a-tray-of-food-with-a-lemon-wedge-and-a-dip.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Shrimp Cocktail",
+            "description": "Chilled shrimp with tangy sauce",
+            "price": 10,
+            "image":"https://images.pexels.com/photos/16741145/pexels-photo-16741145/free-photo-of-seafood-on-plate-and-in-glass.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Bruschetta",
+            "description": "Toasted bread with tomatoes & basil",
+            "price": 6,
+            "image":"https://images.pexels.com/photos/31999268/pexels-photo-31999268/free-photo-of-gourmet-avocado-toast-with-mozzarella.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "MAIN_COURSE",
+        "items": [
+          {
+            "name": "Lobster Thermidor",
+            "description": "Baked lobster with creamy sauce",
+            "price": 28,
+            "image":"https://images.pexels.com/photos/1194431/pexels-photo-1194431.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Fish Tacos",
+            "description": "Grilled fish in soft tortillas",
+            "price": 16,
+             "image":"https://images.pexels.com/photos/9044685/pexels-photo-9044685.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "name": "Vegetable Lasagna",
+            "description": "Layered pasta with seasonal vegetables",
+            "price": 15,
+            "image":"https://images.pexels.com/photos/30302268/pexels-photo-30302268/free-photo-of-delicious-vegetable-lasagna-with-fresh-basil.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      },
+      {
+        "type": "DESSERTS",
+        "items": [
+          {
+            "name": "Tiramisu",
+            "description": "Coffee-flavored Italian dessert",
+            "price": 8,
+             "image":"https://images.pexels.com/photos/29721415/pexels-photo-29721415/free-photo-of-elegant-tiramisu-cake-with-ladyfingers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Fruit Salad",
+            "description": "Mix of fresh seasonal fruits",
+            "price": 5,
+             "image":"https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          },
+          {
+            "name": "Brownies",
+            "description": "Chocolate fudge brownies",
+            "price": 6,
+             "image":"https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          }
+        ]
+      }
+    ]
+    }
+  ]
+
+
+
+
+
+

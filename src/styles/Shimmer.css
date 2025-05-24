@@ -1,0 +1,55 @@
+.shimmer-style
+{
+   display: flex; 
+   gap: 2px;
+}
+
+.shimmer {
+
+    background-color: #f6f7f8;
+    overflow: hidden;
+    position: relative;
+}
+.shimmer-card
+{
+    margin: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: calc(25% - 40px);
+    transition: transform 0.3s ease;
+
+}
+.shimmer-box {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 37%, #f0f0f0 63%);
+    background-size: 400% 100%;
+    animation: shimmer 1.2s ease-in-out infinite;
+    border-radius: 4px;
+    margin: 8px 0;
+}
+
+.shimmer-line {
+    height: 15px;
+    width: 100%;
+}
+
+.shimmer-line.short {
+    width: 60%;
+}
+
+.shimmer-button {
+    height: 36px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.shimmer-card-food-image {
+    height: 150px;
+    width: 100%;
+}
+
+@keyframes shimmer {
+    0% { background-position: -400px 0; }
+    100% { background-position: 400px 0; }
+}
